@@ -60,9 +60,9 @@ Use SQLAlchemy `create_engine` to connect to the sqlite database. Use SQLAlchemy
 
 ### Step 2 - Climate App
 
-Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
+After initial analysis, design a Flask API based on the previous queries.
 
-* Use Flask to create your routes.
+* Using Flask to create the routes.
 
 #### Routes
 
