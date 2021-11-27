@@ -19,9 +19,7 @@ Use SQLAlchemy `create_engine` to connect to your sqlite database. Use SQLAlchem
 
 * Start by finding the most recent date in the data set.
 
-* Using this date, retrieve the last 12 months of precipitation data by querying the 12 preceding months of data. **Note** you do not pass in the date as a variable to your query.
-
-* Select only the `date` and `prcp` values.
+* Using this date, retrieve the last 12 months of precipitation data by querying the 12 preceding months of data only selecting the `date` and `prcp` values.
 
 * Load the query results into a Pandas DataFrame and set the index to the date column.
 
