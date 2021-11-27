@@ -3,6 +3,7 @@
 ## Background
 
 Climate Analysis and Data Exploration of a Climate Database using tools such as SQLAlchemy(ORM Queries), Python(Pandas, Matplotlib, Numpy, Datetime) and Flask.
+
 ## Objectives
 
 # Step 1 - Climate Analysis and Exploration
@@ -11,9 +12,9 @@ Use Python and SQLAlchemy to do basic climate analysis and data exploration of y
 
 ### Engine Connection
 
-Use SQLAlchemy `create_engine` to connect to your sqlite database. Use SQLAlchemy `automap_base()` to reflect your tables into classes and save a reference to those classes called `Station` and `Measurement`. Link Python to the database by creating an SQLAlchemy session.
+Use SQLAlchemy `create_engine` to connect to the sqlite database. Use SQLAlchemy `automap_base()` to reflect the tables into classes and save a reference to those classes called `Station` and `Measurement`. Link Python to the database by creating an SQLAlchemy session.
 
-* **Important** Don't forget to close out your session at the end of your notebook.
+* **Important** Close out the session at the end of the notebook.
 
 ### Precipitation Analysis
 
@@ -39,11 +40,9 @@ Use SQLAlchemy `create_engine` to connect to your sqlite database. Use SQLAlchem
 
   * List the stations and observation counts in descending order.
 
-  * Which station id has the highest number of observations?
-
   * Using the most active station id, calculate the lowest, highest, and average temperature.
 
-  * Hint: You will need to use a function such as `func.min`, `func.max`, `func.avg`, and `func.count` in your queries.
+  * Using functions such as `func.min`, `func.max`, `func.avg`, and `func.count` in each queries.
 
 * Design a query to retrieve the last 12 months of temperature observation data (TOBS).
 
