@@ -6,17 +6,17 @@ Climate Analysis and Data Exploration of a Climate Database using tools such as 
 
 ## Objectives
 
-# Step 1 - Climate Analysis and Exploration
+### Step 1 - Climate Analysis and Exploration
 
 Use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis will be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
-### Engine Connection
+#### Engine Connection
 
 Use SQLAlchemy `create_engine` to connect to the sqlite database. Use SQLAlchemy `automap_base()` to reflect the tables into classes and save a reference to those classes called `Station` and `Measurement`. Link Python to the database by creating an SQLAlchemy session.
 
 * **Important** Close out the session at the end of the notebook.
 
-### Precipitation Analysis
+#### Precipitation Analysis
 
 * Start by finding the most recent date in the data set.
 
@@ -32,7 +32,7 @@ Use SQLAlchemy `create_engine` to connect to the sqlite database. Use SQLAlchemy
 
 * Use Pandas to print the summary statistics for the precipitation data.
 
-### Station Analysis
+#### Station Analysis
 
 * Design a query to calculate the total number of stations in the dataset.
 
@@ -58,13 +58,13 @@ Use SQLAlchemy `create_engine` to connect to the sqlite database. Use SQLAlchemy
 
 - - -
 
-## Step 2 - Climate App
+### Step 2 - Climate App
 
 Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
 
 * Use Flask to create your routes.
 
-### Routes
+#### Routes
 
 * `/`
 
@@ -95,7 +95,7 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
   * When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
 
-## Hints
+#### Hints
 
 * You will need to join the station and measurement tables for some of the queries.
 
