@@ -1,9 +1,9 @@
 # Surfs Up!
 
-### Background
+## Background
 
 Climate Analysis and Data Exploration of a Climate Database using tools such as SQLAlchemy(ORM Queries), Python(Pandas, Matplotlib, Numpy, Datetime) and Flask.
-### Objectives
+## Objectives
 
 ## Step 1 - Climate Analysis and Exploration
 
