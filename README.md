@@ -31,7 +31,7 @@ Use SQLAlchemy `create_engine` to connect to the sqlite database. Use SQLAlchemy
   ![precipitation](Images/precipitation.png)
 
 * Use Pandas to print the summary statistics for the precipitation data.
-* ![describe](Images/describe.png)
+  ![describe](Images/describe.png)
 
 #### Station Analysis
 
